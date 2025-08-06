@@ -8,3 +8,8 @@ WIP
 ```css
 @import url("https://cdn.jsdelivr.net/gh/mitchtheanimator/Jellyfin_Skin@main/link_logos.css");
 ```
+
+## Colour Scheme
+```css
+@import url("https://cdn.jsdelivr.net/gh/mitchtheanimator/Jellyfin_Skin@main/colour.css");
+```

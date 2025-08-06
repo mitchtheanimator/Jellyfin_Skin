@@ -1,0 +1,76 @@
+/* MAIN SETUP */
+:root {
+  --round: 8px;
+  --round_corner: 40%;
+  --main: 164, 52, 235;       /* RGB values without alpha */
+  --accent: 52, 137, 235;     /* RGB values without alpha */
+}
+
+/*Play Style*/
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: rgba(var(--main), 1) !important;
+        background-color: rgba(var(--main), 0.3) !important;
+    }
+}
+
+.countIndicator,
+.fullSyncIndicator,
+.mediaSourceIndicator,
+.playedIndicator {
+    background: linear-gradient(135deg, rgba(var(--main), 1), rgba(var(--accent), 1));
+}
+
+/*Playstate and Rating Indicators*/
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating {
+  color: rgba(var(--main), 1) !important;
+}
+
+/*Indicators*/
+.playedIndicator {
+  position: absolute !important;
+  top: 4px !important;
+  left: 4px !important;
+  border-radius: 0 0 0 6 !important;
+}
+
+/*Adjust the Count Indicator in the top left corner*/
+.countIndicator {
+  position: absolute !important;
+  top: 0px !important;
+  right: 0px !important;
+  border-radius: 0px !important;
+  border-bottom-left-radius: var(--round_corner) !important;
+}
+
+.cardIndicators {
+    /* If the countIndicator is a child of .cardIndicators and you move it to top-left,
+       it might go outside the card. This rule brings it back inside. */
+    right: unset !important; /* Remove default right positioning */
+    right: 0 !important;     /* Align to left */
+    top: 0 !important;      /* Align to top */
+    width: 100% !important; /* Ensure it spans the full width if needed */
+    height: 100% !important; /* Ensure it spans the full height if needed */
+    position: absolute !important; /* Ensure positioning context */
+    /* Remove any padding that might be pushing it in */
+    padding: 0 !important;
+}
+
+/*Window Play Slider*/
+.mdl-slider-background-lower {
+    background: linear-gradient(135deg, rgba(var(--main), 1), rgba(var(--accent), 1));
+}
+
+.sliderMarker.watched {
+  background-color: rgb(var(--main));
+}
+
+.mdl-slider::-moz-range-thumb {
+    background: linear-gradient(135deg, rgba(var(--main), 1), rgba(var(--accent), 1));
+}
+
+/*Progress Bar on thumbnails*/
+.itemProgressBarForeground {
+  background: linear-gradient(135deg, rgba(var(--main), 1), rgba(var(--accent), 1));
+}
