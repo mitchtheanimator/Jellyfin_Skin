@@ -21,5 +21,5 @@ WIP
 
 ## Skip Intro Scheme
 ```css
-@import url("https://cdn.jsdelivr.net/gh/mitchtheanimator/Jellyfin_Skin@main/skip-button.css");
+@import url("https://cdn.jsdelivr.net/gh/mitchtheanimator/Jellyfin_Skin@main/skip_button.css");
 ```
