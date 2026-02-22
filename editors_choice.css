@@ -1,15 +1,3 @@
-/* Stretch the banner for side to side */
-.editorsChoiceContainer {
-    padding: 0 0 0 0 !important;
-    margin: 0 0 6 0 !important;
-    border-radius: 0px; !important;
-}
-
-/* Width of the description field */
-.editorsChoiceContainer p,
-.editorsChoiceContainer span {
-    max-width: 30ch;
-}
 
 /* Move the buttons and text in more so that they can be lined up with the items below */
 .editorsChoiceScrollButtonsContainer,
@@ -26,4 +14,17 @@
 
 .editorsChoiceItemButton {
     left: 50px;
+}
+
+/* Stretch the banner for side to side */
+.editorsChoiceContainer {
+    padding: 0 0 0 0 !important;
+    margin: 0 0 6 0 !important;
+    border-radius: 0px; !important;
+}
+
+/* Width of the description field */
+.editorsChoiceContainer p,
+.editorsChoiceContainer span {
+    max-width: 30ch;
 }
