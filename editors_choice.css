@@ -10,3 +10,26 @@
 .editorsChoiceContainer span {
     max-width: 30ch;
 }
+
+/* Move the buttons and text in more so that they can be lined up with the items below */
+.editorsChoiceScrollButtonsContainer {
+    right: 50px;
+}
+
+.editorsChoicePlayPauseContainer {
+    right: 50px;
+}
+
+.editorsChoiceItemLogo {
+    margin-left: 20px !important;
+    margin-right: auto !important;
+    align-self: flex-start;
+}
+
+.editorsChoiceItemOverview {
+    margin-left: 20px !important;
+}
+
+.editorsChoiceItemButton {
+    left: 50px;
+}
