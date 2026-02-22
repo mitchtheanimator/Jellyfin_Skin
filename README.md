@@ -13,3 +13,13 @@ WIP
 ```css
 @import url("https://cdn.jsdelivr.net/gh/mitchtheanimator/Jellyfin_Skin@main/colour.css");
 ```
+
+## Editors Choice Scheme
+```css
+@import url("https://cdn.jsdelivr.net/gh/mitchtheanimator/Jellyfin_Skin@main/editors_choice.css");
+```
+
+## Skip Intro Scheme
+```css
+@import url("https://cdn.jsdelivr.net/gh/mitchtheanimator/Jellyfin_Skin@main/skip-button.css");
+```
