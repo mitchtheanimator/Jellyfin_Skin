@@ -17,7 +17,8 @@
 .countIndicator,
 .fullSyncIndicator,
 .mediaSourceIndicator,
-.playedIndicator {
+.playedIndicator,
+.editorsChoiceItemButton{
     background: linear-gradient(135deg, rgba(var(--main), 1), rgba(var(--accent), 1));
 }
 
